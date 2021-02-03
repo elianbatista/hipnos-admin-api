@@ -1,9 +1,16 @@
 {
   "extends": "standard-with-typescript",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.eslint.json"
   },
   "rules": {
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/no-redeclare": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "camelcase": "off",
+    "eqeqeq": "off"
   }
 }
